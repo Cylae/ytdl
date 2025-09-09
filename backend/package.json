@@ -1,0 +1,18 @@
+{
+  "name": "ytdl-backend",
+  "version": "1.0.0",
+  "description": "Backend for the YouTube Downloader",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "@fastify/static": "^8.2.0",
+    "fastify": "^5.6.0",
+    "yt-dlp-exec": "^1.0.2"
+  }
+}
